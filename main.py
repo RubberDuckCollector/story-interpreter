@@ -28,7 +28,7 @@ class storyParser(HTMLParser):  # inherits from HTMLParser class
 
 
     def handle_starttag(self, tag, attrs):
-        if tag == "speed":
+        if tag == "speed":  # sets speed of typing in-between the speed tags
             # print(attrs)  # DEBUG
             # `attrs` is a list of tuples of attribues in a tag.
                 # e.g: <speed val=5> -> [('val', '5')]
@@ -45,7 +45,7 @@ class storyParser(HTMLParser):  # inherits from HTMLParser class
                     # also raise flag that data coming up should be handled as inside `speed` tags.
                     self.speed = value
                     self.collect_data = "speed"
-        elif tag == "pause":
+        elif tag == "pause":  # pauses typing for a specified duration
             # print(attrs)  # DEBUG
             for attr_name, value in attrs:
                 if attr_name == "val":
