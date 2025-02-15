@@ -26,11 +26,9 @@ of when and how fast words and letters appear on the screen**
 
 # Tags
 
-```HTML
-- [x] <speed val=n>DATA</speed> (types the data within the tags at a rate of n speed in seconds)
-- [ ] <pause val=n> (pause typing for n seconds)
-- [ ] <alternate val=n>E</alternate> (deletes and re-types a character/data at a rate of n speed in seconds, but would work best with single characters)
-```
+- [x] `<speed val=n>DATA</speed> (types the data within the tags at a rate of n speed in seconds)`
+- [ ] `<pause val=n> (pause typing for n seconds)`
+- [ ] `<alternate val=n>E</alternate> (deletes and re-types a character/data at a rate of n speed in seconds, but would work best with single characters)`
 
 # TODO
 
