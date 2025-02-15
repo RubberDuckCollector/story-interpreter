@@ -13,10 +13,10 @@
 
 https://docs.python.org/3/library/html.parser.html
 
-idea: a program that can interpret a story with timing
+**idea: a program that can interpret a story with timing
 markers to print text at different speeds as specified in the story,
 allowing the writer to illustrate elements of the story through the timing
-of when and how fast words and letters appear on the screen
+of when and how fast words and letters appear on the screen**
 
 # Story format
 
