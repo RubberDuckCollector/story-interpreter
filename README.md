@@ -5,6 +5,7 @@
 * [Story interpreter](#story-interpreter)
 * [Story format](#story-format)
 * [Tags](#tags)
+* [Prerequisites](#prerequisites)
 * [TODO](#todo)
 
 <!-- vim-markdown-toc -->
@@ -30,8 +31,14 @@ of when and how fast words and letters appear on the screen**
 - [ ] `<pause val=n> (pause typing for n seconds)`
 - [ ] `<alternate val=n>E</alternate> (deletes and re-types a character/data at a rate of n speed in seconds, but would work best with single characters)`
 
+# Prerequisites
+
+- The program comes with example stories but also works from `.html` files.
+
 # TODO
 
-- [ ] figure out new lines (`<br>`?)
+- [x] figure out new lines (`<br>`?)
+- [ ] implement styles
 - [ ] figure out how to injest a file
 - [ ] implement argparse
+- [ ] implement colours
