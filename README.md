@@ -6,6 +6,7 @@
 * [Story format](#story-format)
 * [Tags](#tags)
 * [Prerequisites](#prerequisites)
+* [Disclaimer](#disclaimer)
 * [TODO](#todo)
 
 <!-- vim-markdown-toc -->
@@ -35,10 +36,15 @@ of when and how fast words and letters appear on the screen**
 
 - The program comes with example stories but also works from `.html` files.
 
+# Disclaimer
+
+**Program will not output correctly if the text is not inside valid tags.
+e.g: misspelled "color" tags won't activate color correctly and misspellt "speed" tags won't allow the text to be outputted.**
+
 # TODO
 
-- [x] figure out new lines (`<br>`?)
-- [ ] implement styles
-- [ ] figure out how to injest a file
 - [ ] implement argparse
-- [ ] implement colours
+- [x] figure out new lines (`<br>`?)
+- [x] implement styles
+- [x] figure out how to injest a file
+- [x] implement colours

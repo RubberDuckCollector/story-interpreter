@@ -1,6 +1,7 @@
 import sys
 import time
 import pprint
+import textwrap
 # import my_modules.colors
 from html.parser import HTMLParser
 
@@ -109,10 +110,10 @@ class storyParser(HTMLParser):  # inherits from HTMLParser class
 
     def handle_data(self, data):
         if self.collect_data == "speed":
-            data = data.strip()
+            data = textwrap.dedent(data)
             print(f"{self.color}", end='', flush=True)
             slow_print(data, self.speed)
-            print(f"{colors["reset"]}", end='', flush=True)
+            print(f"{colors['reset']}", end='', flush=True)
 
 
     def handle_endtag(self, tag):
