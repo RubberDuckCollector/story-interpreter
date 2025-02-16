@@ -111,6 +111,7 @@ class storyParser(HTMLParser):  # inherits from HTMLParser class
     def handle_data(self, data):
         if self.collect_data == "speed":
             data = textwrap.dedent(data)
+            data = data.strip()
             print(f"{self.color}", end='', flush=True)
             slow_print(data, self.speed)
             print(f"{colors['reset']}", end='', flush=True)
